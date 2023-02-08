@@ -1,0 +1,219 @@
+/* DEFAULT STUFF & BACKGROUND */
+body {
+    background-color: #EDE6E3;
+
+    font-family: 'Roboto Mono', monospace;
+    font-size: 15px;
+}
+
+/* Curriculum Body and Outline */
+.curriculum {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    background-color: #B7C0EE;
+    border: 4px solid black;
+    border-radius: 5px;
+
+    max-width: 1080px;
+}
+
+
+/* Title */
+.title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #36382E;
+    border-bottom: 2px solid black;
+
+    padding: 32px;
+    color: white;
+}
+
+.name {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.title {
+    font-size: 24px;
+    margin-top: 16px;
+}
+
+/* Sub-Title */
+.sub-title-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    background-color: #DADAD9;
+    border-bottom: 2px black solid;
+
+    padding: 12px;
+}
+
+.place {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Goals */
+.goals {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #CC7178;
+    border-bottom: 2px black solid;
+
+    padding: 12px;
+}
+
+.goals-text {
+    margin: 16px 32px 0px 32px;
+}
+
+/* Main Body Container */
+.main-body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex: 1;
+}
+
+/* Left Container */
+.left-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+    max-width: 240px;
+}
+
+/* Education */
+.education {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+    padding: 12px;
+}
+
+.education-text {
+    margin: 16px;
+}
+
+/* Skills */
+.skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+    padding: 12px;
+}
+
+.skills-text {
+    display: flex;
+    flex-direction: column;
+
+    margin: 16px;
+}
+
+/* Right Container */
+.right-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex: 1;
+
+    background-color: #DADAD9;
+    padding: 12px;
+}
+
+/* Experiences */
+.experiences {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.experiences-title {
+    align-self: center;
+    font-weight: bold;
+}
+
+.experience-title {
+    font-weight: bold;
+}
+
+.experience {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    margin: 16px;
+    line-height: 1.6;
+}
+
+.experience-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    margin-top: 4px;
+    font-size: 14px;
+}
+
+.experience-description span {
+    padding-top: 12px;
+}
+
+/* Divider */
+.divider {
+    border: 1px solid #36382E;
+    margin: 25px 50px;
+}
+
+/* Projects */
+.projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.projects-title {
+    align-self: center;
+    font-weight: bold;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    margin: 16px;
+    line-height: 1.6;
+}
+
+.project span {
+    padding-top: 12px;
+}
